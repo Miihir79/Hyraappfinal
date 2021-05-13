@@ -1,10 +1,216 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Mainbackground"
     tools:context=".collectons">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="101dp"
+                android:background="#000000"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="Shop Now"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                app:layout_constraintStart_toStartOf="@+id/imageButton58"
+                app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="7dp"
+                android:background="#000000"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="Shop Now"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageButton59"
+                app:layout_constraintStart_toStartOf="@+id/imageButton59" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="101dp"
+                android:background="#000000"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="Shop Now"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                app:layout_constraintStart_toStartOf="@+id/imageButton57"
+                app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="194dp"
+                android:layout_height="106dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:clickable="false"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Nintendo Switch"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                app:layout_constraintStart_toStartOf="@+id/imageButton59"
+                app:layout_constraintTop_toTopOf="@+id/imageButton59" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:clickable="false"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Xbox"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                app:layout_constraintStart_toEndOf="@+id/imageButton58"
+                app:layout_constraintStart_toStartOf="@+id/imageButton58"
+                app:layout_constraintTop_toTopOf="@+id/imageButton58" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:clickable="false"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Play Station"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageButton57" />
+
+            <ImageButton
+                android:id="@+id/imageButton59"
+                android:layout_width="324dp"
+                android:layout_height="192dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton58"
+                app:srcCompat="@drawable/nintendo_collection" />
+
+            <ImageButton
+                android:id="@+id/imageButton58"
+                android:layout_width="324dp"
+                android:layout_height="192dp"
+                android:layout_marginTop="34dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton57"
+                app:srcCompat="@drawable/xbox_collection" />
+
+            <ImageButton
+                android:id="@+id/imageButton57"
+                android:layout_width="324dp"
+                android:layout_height="192dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ps5_collection" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton56"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconsearch" />
+
+    <ImageButton
+        android:id="@+id/imageButton55"
+        android:layout_width="26dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_shoppingcart" />
+
+    <ImageButton
+        android:id="@+id/imageButton52"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconmenu" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="49dp"
+        android:fontFamily="@font/quicksand_semibold"
+        android:text="Collections"
+        android:textColor="@color/textcolor"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton52" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@color/Mainbackground"
+        android:text="switch"
+        android:textColor="@color/textcolor"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton56"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

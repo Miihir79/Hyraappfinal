@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Mainbackground"
     tools:context=".Homepage">
 
     <ScrollView
@@ -11,6 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="264dp"
+        android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -27,6 +29,104 @@
                 android:layout_height="580dp">
 
                 <ImageButton
+                    android:id="@+id/imageButton18"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
+                    android:layout_marginStart="37dp"
+                    android:layout_marginLeft="37dp"
+                    android:layout_marginTop="152dp"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButton19"
+                    app:layout_constraintStart_toEndOf="@+id/textView11"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton42"
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton19"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
+                    android:layout_marginTop="152dp"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButton20"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton20"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
+                    android:layout_marginTop="152dp"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButton21"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton21"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
+                    android:layout_marginTop="152dp"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButton22"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton15"
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton22"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
+                    android:layout_marginTop="152dp"
+                    android:layout_marginEnd="98dp"
+                    android:layout_marginRight="98dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
+                    android:layout_marginTop="91dp"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton10"
+                    app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
+                    android:layout_marginTop="29dp"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton14"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16"
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton17"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
+                    android:layout_marginTop="29dp"
+                    android:layout_marginEnd="98dp"
+                    android:layout_marginRight="98dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton15"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16"
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
+                    android:layout_marginTop="91dp"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton42"
+                    app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
                     android:id="@+id/imageButton38"
                     android:layout_width="18dp"
                     android:layout_height="15dp"
@@ -35,7 +135,8 @@
                     android:layout_marginRight="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
-                    app:srcCompat="@drawable/ic_icon_material_arrow_forward" />
+                    app:srcCompat="@drawable/ic_icon_material_arrow_forward"
+                    tools:ignore="VectorDrawableCompat" />
 
                 <ImageButton
                     android:id="@+id/imageButton16"
@@ -45,12 +146,14 @@
                     android:contentDescription="@android:string/unknownName"
                     app:layout_constraintStart_toEndOf="@+id/textView18"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/ic_icon_material_arrow_forward" />
+                    app:srcCompat="@drawable/ic_icon_material_arrow_forward"
+                    tools:ignore="VectorDrawableCompat" />
 
                 <HorizontalScrollView
                     android:id="@+id/horizontalScrollView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="170dp"
+                    android:layout_width="419dp"
+                    android:layout_height="164dp"
+                    android:scrollbars="none"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView17">
@@ -61,38 +164,36 @@
                         android:orientation="vertical">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="420dp"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
-                            <ImageView
-                                android:id="@+id/imageView12"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginBottom="8dp"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintStart_toEndOf="@+id/imageView11"
-                                app:srcCompat="@drawable/wasteland" />
+                            <ImageButton
+                                android:id="@+id/imageButton41"
+                                android:layout_width="150dp"
+                                android:layout_height="170dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginLeft="5dp"
+                                app:layout_constraintStart_toEndOf="@+id/imageButton40"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/newnew" />
 
-                            <ImageView
-                                android:id="@+id/imageView11"
-                                android:layout_width="160dp"
-                                android:layout_height="160dp"
-                                android:layout_marginEnd="116dp"
-                                android:layout_marginRight="116dp"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="parent"
+                            <ImageButton
+                                android:id="@+id/imageButton40"
+                                android:layout_width="150dp"
+                                android:layout_height="199dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginLeft="16dp"
+                                app:layout_constraintStart_toEndOf="@+id/imageButton24"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:srcCompat="@drawable/assasian" />
 
-                            <ImageView
-                                android:id="@+id/imageView10"
-                                android:layout_width="160dp"
-                                android:layout_height="160dp"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginLeft="4dp"
-                                android:layout_marginTop="4dp"
+                            <ImageButton
+                                android:id="@+id/imageButton24"
+                                android:layout_width="150dp"
+                                android:layout_height="242dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:scaleType="center"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:srcCompat="@drawable/cod" />
@@ -110,7 +211,7 @@
                     android:layout_marginTop="15dp"
                     android:fontFamily="sans-serif-medium"
                     android:text="Best Sellers"
-                    android:textColor="#000000"
+                    android:textColor="@color/textcolor"
                     android:textSize="36sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
@@ -123,7 +224,7 @@
                     android:layout_marginLeft="68dp"
                     android:fontFamily="@font/quicksand_medium"
                     android:text="Show All"
-                    android:textColor="#000000"
+                    android:textColor="@color/textcolor"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/textView15"
@@ -134,12 +235,12 @@
                     android:id="@+id/textView18"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="98dp"
-                    android:layout_marginLeft="98dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginLeft="69dp"
                     android:layout_marginTop="16dp"
                     android:fontFamily="@font/quicksand_medium"
                     android:text="Show All"
-                    android:textColor="#000000"
+                    android:textColor="@color/textcolor"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
                     app:layout_constraintStart_toEndOf="@+id/textView17"
@@ -149,13 +250,13 @@
                     android:id="@+id/textView17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginLeft="4dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="236dp"
                     android:fontFamily="sans-serif-medium"
                     android:text="New Arrivals"
-                    android:textColor="#000000"
+                    android:textColor="@color/textcolor"
                     android:textSize="36sp"
                     app:layout_constraintBottom_toTopOf="@+id/textView15"
                     app:layout_constraintStart_toStartOf="parent"
@@ -185,7 +286,7 @@
                     android:layout_marginTop="30dp"
                     android:fontFamily="@font/quicksand_medium"
                     android:text="Fortnite"
-                    android:textColor="#000000"
+                    android:textColor="@color/textcolor"
                     android:textSize="17sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageButton35"
@@ -214,7 +315,7 @@
                     android:layout_marginTop="30dp"
                     android:fontFamily="@font/quicksand_medium"
                     android:text="Witcher"
-                    android:textColor="#000000"
+                    android:textColor="@color/textcolor"
                     android:textSize="17sp"
                     app:layout_constraintStart_toEndOf="@+id/imageButton34"
                     app:layout_constraintTop_toBottomOf="@+id/textView15" />
@@ -228,7 +329,7 @@
                     android:layout_marginTop="19dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView15"
-                    app:srcCompat="@drawable/best" />
+                    app:srcCompat="@drawable/witcher__" />
 
                 <ImageView
                     android:id="@+id/imageView17"
@@ -265,14 +366,16 @@
 
                 <ImageButton
                     android:id="@+id/imageButton42"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="11dp"
+                    android:layout_height="10.37dp"
                     android:layout_marginStart="39dp"
                     android:layout_marginLeft="39dp"
                     android:layout_marginTop="29dp"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButton10"
                     app:layout_constraintStart_toEndOf="@+id/textView9"
                     app:layout_constraintTop_toBottomOf="@+id/textView16"
-                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1" />
+                    app:srcCompat="@drawable/ic_icon_ionic_ios_star_outline_1"
+                    tools:ignore="VectorDrawableCompat" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
@@ -280,8 +383,8 @@
 
     <ImageButton
         android:id="@+id/imageButton36"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="18dp"
         android:layout_marginRight="18dp"
@@ -299,5 +402,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/iconmenu" />
+
+    <ImageButton
+        android:id="@+id/imageButton45"
+        android:layout_width="26dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton36"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_shoppingcart" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

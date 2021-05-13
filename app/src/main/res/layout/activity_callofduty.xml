@@ -1,10 +1,373 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Callofduty">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Mainbackground">
+
+        <ScrollView
+            android:id="@+id/scrollView4"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="4dp"
+            android:scrollbars="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="9dp"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:text="The stakes have never been higher as the players take on the role of leathal tier  1 operators in an heart-racing saga that will effect the global balance of power "
+                        android:textColor="@color/textcolor"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:text="Description"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:text="ASIN:B07SPWYF9L "
+                        android:textColor="@color/textlight"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginLeft="7dp"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:text="Product Dimensions: 1.3 x 17 x 13.5 cm"
+                        android:textColor="@color/textlight"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginLeft="7dp"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:text="Release Date: 25 October 2019"
+                        android:textColor="@color/textlight"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:fontFamily="@font/quicksand_semibold"
+            android:text="Show All"
+            android:textColor="@color/textcolor"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton29" />
+
+        <ImageButton
+            android:id="@+id/imageButton29"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="19dp"
+            app:layout_constraintStart_toEndOf="@+id/imageButton26"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/icon_yellowstar" />
+
+        <ImageButton
+            android:id="@+id/imageButton28"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="19dp"
+            app:layout_constraintStart_toEndOf="@+id/imageButton27"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/icon_yellowstar" />
+
+        <ImageButton
+            android:id="@+id/imageButton27"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginLeft="121dp"
+            android:layout_marginTop="19dp"
+            app:layout_constraintStart_toEndOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/icon_yellowstar" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Rs.899"
+            android:textColor="#CD0C27"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Call Of Duty : War Zone"
+            android:textColor="@color/textcolor"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="54dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="13dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:srcCompat="@drawable/ps5logo" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="96dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:srcCompat="@drawable/xbox_onelogo" />
+
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:layout_width="25dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/iosheart" />
+
+        <ImageButton
+            android:id="@+id/imageButton25"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="19dp"
+            app:layout_constraintStart_toEndOf="@+id/imageButton29"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/icon_star" />
+
+        <ImageButton
+            android:id="@+id/imageButton26"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="19dp"
+            app:layout_constraintStart_toEndOf="@+id/imageButton28"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/icon_yellowstar" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/quicksand_semibold"
+            android:text="You May Also Like"
+            android:textColor="@color/textcolor"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <ImageButton
+            android:id="@+id/imageButton30"
+            android:layout_width="18.5dp"
+            android:layout_height="15.5dp"
+            android:layout_marginTop="107dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/ic_icon_material_arrow_forward"
+            tools:ignore="VectorDrawableCompat" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView4"
+            android:layout_width="0dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="8dp"
+            android:scrollbars="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imageButton39"
+                        android:layout_width="89dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/wasteland" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton33"
+                        android:layout_width="89dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginLeft="11dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageButton31"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.444"
+                        app:srcCompat="@drawable/resident" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton32"
+                        android:layout_width="89dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginLeft="11dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageButton33"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.444"
+                        app:srcCompat="@drawable/jedi" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton31"
+                        android:layout_width="89dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginBottom="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageButton39"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/destiny2" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="301dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/textcolor"
+            android:text="Add To Cart"
+            android:textColor="@color/Mainbackground"
+            android:textColorHighlight="#E2FFFFFF"
+            android:textColorHint="#00FFFFFF"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
+
+        <ImageButton
+            android:id="@+id/imageButton43"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_arrow_back" />
+
+        <ImageButton
+            android:id="@+id/imageButton44"
+            android:layout_width="6dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_feather" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/callofduty" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
